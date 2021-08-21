@@ -1,2 +1,2 @@
 # Projects_JS
-Projetos desenvolvidos com Javascript, HTML e CSS.
+Projetos desenvolvidos com Javascript, HTML e CSS
