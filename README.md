@@ -1,2 +1,5 @@
 # Pequenos Projetos com Javascript
-Projetos desenvolvidos com Javascript, HTML e CSS
+Projetinhos desenvolvidos com Javascript, HTML e CSS.
+
+
+<h2> Bloco de Notas </h2>
