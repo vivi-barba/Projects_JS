@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Tabuada</title>
+</head>
+<body>
+    <div class="centerPosition">
+        <div>
+            <h2>Entre com o número da tabuada que que você ver</h2>
+        </div>
+        <div class="centerInputPosition">
+            <input type="number" id="num" name="enterNumber" placeholder="Ex: 9">
+            <button onclick="tabuada()">Exibir</button>
+        </div>
+    </div>
+    <div id='respost' class="centerRespost"></div>
+</body>
+<style>
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    input{
+        padding: 5px;
+        border-radius: 5px;
+        border-color: black;
+    }
+    button{
+        padding: 5px;
+        width: 70px;
+        border-radius: 5px;
+        border-color: antiquewhite;
+    }
+    button:hover{
+        background-color:antiquewhite;
+    }
+    .centerPosition{
+        display: grid;
+        justify-content: center;
+    }
+    .centerInputPosition{
+        margin: auto;
+    }
+    .centerRespost{
+        text-align: center;
+        margin: 30px;
+    }
+
+</style>
+</html>
