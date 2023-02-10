@@ -1,0 +1,113 @@
+﻿header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+li > h1{
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav{
+  font-size: 1.5rem;
+}
+
+ul.sidenav.sidenav-fixed li.logo {
+  text-align: center;
+  margin-top: 32px;  
+}
+
+.validation-summary-errors > ul {
+  margin: .5rem 0 1rem 0;
+  margin-bottom: 2rem;        
+  list-style-type: inherit;
+  padding-left: 2rem;
+}
+.validation-summary-errors > ul > li{
+  list-style-type: inherit;
+  color: red;
+}
+
+#logo {
+  font-size: 5rem;
+  margin-bottom: 32px;
+  font-size: 5rem;  
+}
+
+.collection{
+  border-top: none;  
+  border-left: none;  
+  border-right: none;  
+
+}
+
+.collection .collection-item {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: none;
+}
+
+.collection.with-header .collection-header{  
+  font-size: 1.5rem;
+}
+
+.titulo-do-menu
+{  
+  padding-bottom: 0;
+   border-bottom: none;
+}
+
+.collection .collection-item.avatar {
+  padding-left: 65px;
+  min-height: 60px; 
+}
+
+.item-avatar {
+  position: absolute;
+  width: 42px;
+  height: 42px;  
+  left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  font-size: 2rem;  
+}
+
+h1{
+  font-size: 2rem;  
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 1.8rem;
+}
+
+.collection .collection-item.avatar .secondary-content {
+  top: 10px;
+}
+
+.container {
+    width: 90%;
+}
+
+
+#modalPageLoader{
+  box-shadow: none;
+  background-color: transparent;
+}

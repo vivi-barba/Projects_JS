@@ -1,0 +1,20 @@
+﻿@model UsuarioVM
+
+<div class="input-field">
+    <input asp-for="Nome" class="validate" required maxlength="20">        
+    <label asp-for="Nome"></label>
+    <span class="helper-text" data-error='Campo obrigatório.'></span>
+</div>
+
+<div class="input-field">
+    <input asp-for="Email" class="validate" required maxlength="20" type='email'>        
+    <label asp-for="Email"></label>
+    <span class="helper-text" data-error='Campo obrigatório.'></span>
+</div>
+
+<div class="input-field">
+    <select asp-for="Perfil" asp-items='ViewBag.Perfil' class="validate" required>
+        <option value=''>Selecione</option>
+    </select>
+    <label asp-for="Perfil"></label>    
+</div>

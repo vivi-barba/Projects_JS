@@ -1,0 +1,10 @@
+﻿@model UsuarioVM
+@{
+    ViewBag.Title = "Editar Usuário"; 
+}
+
+<form asp-for="Editar" method="POST">    
+    <input asp-for='Id' type='hidden'>         
+    <partial name="_Form"/>
+    <partial name='_SubmitChick'/>
+</form>

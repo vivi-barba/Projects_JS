@@ -1,0 +1,49 @@
+html, body, main {
+  height: 100%;
+}
+
+main{
+display: flex;
+justify-content: center;
+}
+
+.caixa-titulo{
+margin-top: 2rem;
+margin-bottom: 2rem;
+text-align: center;
+}
+
+#logo {
+  font-size: 5rem;
+}
+
+h1{
+font-size: 1.5rem;  
+margin: .5rem;
+padding: 0;
+}
+
+.btn-submit{
+width: 70%;
+}
+
+.card-login{
+margin-right: 1rem;
+margin-left: 1rem;  
+max-width: 25rem;
+box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 10px 10px 10px 10px;
+}
+
+.validation{
+color: red;
+display: block;
+margin: 1rem;
+}
+
+.input-field{
+padding-right: 1rem;  
+}
+
+
+  
